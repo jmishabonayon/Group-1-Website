@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<title>Outreach Project</title>
+<head>
+    <style>
+	    body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fefcfb;
+            color: #333;
+			background-image: url(WEBSITE\ BACKGROUND\ \(2\).png);
+			background-repeat: no-repeat;
+            background-attachment: fixed;
+			background-size: cover;
+        }
+		section{
+		    margin-left: 20px;
+			margin-right: 20px;
+	    }
+	    .navbar ul{
+		    list-style-type: none;
+			background-color:solid white;
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+	    }
+	    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #466b47;;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+		.navbar a {
+            background-color: #aeba86;
+            text-decoration: none;
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: italic;
+            color: #466b47;
+			display: block;
+			text-align: right;
+            font-size: 18px;
+            margin-left: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+		.navbar a:hover {
+            background-color: #335441;
+            color: #e3b246;
+            align: left;
+        }
+		.navbar li{
+		    float: left;
+	    }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            height: 100px; 
+            width: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: #fefcfb;
+        }
+
+        .header img {
+            width: 100%;
+            height: auto;
+            filter: brightness(90%);
+        }
+
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header .overlay h1 {
+            font-size: 90px;
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal
+            margin: 0;
+            font-weight: bold;
+            line-spacing: 0px;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .header .overlay p {
+            font-size: 24px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        section {
+            padding: 50px 20px;
+            margin: 30px auto;
+            max-width: 800px;
+            background-color:  #ffefc4;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color:#466b47;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            background-color: #ffefc4a4;
+        }
+        
+        p {
+		font-family: "Outfit"
+		}
+		
+        section h2 {
+            font-size: 34px;
+            color: #466b47;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #6b705c;
+        }
+		
+		.lusitana-bold {
+            font-family: "Lusitana", serif;
+            font-weight: 700;
+            font-style: normal;
+         }
+        .poppins-bold-italic {
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .josefin-sans {
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        section a {
+            color: #d77a61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        {
+    box-sizing: border-box; 
+}
+
+.gallery-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 50px; 
+    background-color: #ffefc4c6; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 90%; 
+    margin: auto; 
+}
+
+.gallery-title {
+    font-size: 28px; 
+    color: #335441; 
+    text-align: center; 
+    margin: 0; 
+}
+
+.image-gallery {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
+
+.gallery-image {
+    width: 150px; 
+    height: 100px; 
+    border-radius: 8px;
+    object-fit: cover; 
+    border: 2px solid #aebc86; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.gallery-container2{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 50px;
+    background-color: #f7dd95cc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 90%; 
+    margin: 20px; 
+}
+
+.gallery-container3{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 50px; 
+    background-color: #f0cb64bc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 90%; 
+    margin: 20px; 
+}
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #466b47;
+            color: #ffffff;
+            font-size: 14px;
+        }
+		
+        @media (max-width: 768px) {
+            .header .overlay h1 {
+                font-size: 36px;
+            }
+
+            .header .overlay p {
+                font-size: 18px;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+	    <ul>
+		    <li><a href="Q3 GROUP ONE WEBSITE.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="programs.html">Programs</a></li>
+			<li><a href="contacts.html">Contact</a></li>
+			<li><a href="involved.html">Get Involved</a></li>
+		</ul>
+    <div class="logo-container">
+    <img src="LOGO.jpeg" alt="Logo" class="logo">
+</div>
+</nav>
+	
+	<div class="header">
+        <img src="HEADER (4).png" alt="Outreach Project Banner">
+        <div class="overlay">
+            <h1>IMAGE GALLERY</h1>
+            <p>A Day of Compassion and Kindness</p>
+        </div>
+    </div>
+	
+	
+	<section id="home">
+	    <h2>⌕ GALLERY</h2>
+		<p>Welcome to our Activity Gallery! As students embarking on our first experience of organizing activities, we are excited to share the moments we've captured along the way. This gallery showcases our journey from planning to execution, highlighting the teamwork, creativity, and enthusiasm that made each event special. From collaborative projects to fun activities, each photo represents our growth and learning throughout this experience. We invite you to explore our gallery and witness the joy and accomplishment of our inaugural efforts! </p>
+	</section>
+
+    <section>
+        <h3> OUR DOCUMENTATION ✨</h3>
+        <p>Our documentation reflects the unforgettable and impactful Outreach Program we had conducted on February 1, 2025.</p>
+		<video controls src="PAUL OUTREACH PROGRAM(2).mp4"
+                width="560" 
+                height="315" 
+                frameborder="0" 
+                allowfullscreen>
+        </video>
+		<p> Credits to: Saint Paul's Documentation Team </p>
+	</section>
+
+    <div class="gallery-container">
+        <h2 class="gallery-title">Games Gallery</h2>
+        <div class="image-gallery">
+            <img src="games1.jpeg" alt="Activity 1" class="gallery-image" />
+            <img src="games2.jpeg" alt="Activity 2" class="gallery-image" />
+            <img src="games3.jpeg" alt="Activity 3" class="gallery-image" />
+            <img src="games4.jpeg" alt="Activity 4" class="gallery-image" />
+            <img src="games5.jpeg" alt="Activity 5" class="gallery-image" />
+            <img src="games6.jpeg" alt="Activity 6" class="gallery-image" />
+            <img src="games7.jpeg" alt="Activity 7" class="gallery-image" />
+            <img src="games8.jpeg" alt="Activity 8" class="gallery-image" />
+        </div>
+    </div>
+
+
+    <div class="gallery-container2">
+        <h2 class="gallery-title">Interaction Gallery</h2>
+        <div class="image-gallery">
+            <img src="interaction1.jpg" alt="Activity 1" class="gallery-image" />
+            <img src="interaction2.jpg" alt="Activity 2" class="gallery-image" />
+            <img src="interaction3.jpg" alt="Activity 3" class="gallery-image" />
+            <img src="interaction4.jpg" alt="Activity 4" class="gallery-image" />
+            <img src="interaction5.jpg" alt="Activity 5" class="gallery-image" />
+            <img src="interaction6.jpg" alt="Activity 6" class="gallery-image" />
+            <img src="interaction7.jpg" alt="Activity 7" class="gallery-image" />
+            <img src="interaction8.JPG" alt="Activity 8" class="gallery-image" />
+        </div>
+    </div>
+
+    
+    <div class="gallery-container3">
+        <h2 class="gallery-title">Programs Gallery</h2>
+        <div class="image-gallery">
+            <img src="programs1.jpeg" alt="Activity 1" class="gallery-image" />
+            <img src="programs2.jpeg" alt="Activity 2" class="gallery-image" />
+            <img src="programs3.jpeg" alt="Activity 3" class="gallery-image" />
+            <img src="programs4.jpeg" alt="Activity 4" class="gallery-image" />
+            <img src="programs5.jpeg" alt="Activity 5" class="gallery-image" />
+            <img src="programs6.jpeg" alt="Activity 6" class="gallery-image" />
+            <img src="programs7.jpeg" alt="Activity 7" class="gallery-image" />
+            <img src="programs8.jpg" alt="Activity 8" class="gallery-image" />
+        </div>
+    </div>
+	
+	<footer>
+	   <p> @2024 Group One Paul</p>
+	</footer>

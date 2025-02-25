@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Lusitana:wght@400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<title>Outreach Project</title>
+<head>
+    <style>
+	    body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fefcfb;
+            color: #333;
+			background-image: url(WEBSITE\ BACKGROUND\ \(2\).png);
+			background-repeat: no-repeat;
+            background-attachment: fixed;
+			background-size: cover;
+        }
+		section{
+		    margin-left: 20px;
+			margin-right: 20px;
+	    }
+	    .navbar ul{
+		    list-style-type: none;
+			background-color:solid white;
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+	    }
+	    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #466b47;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+		.navbar a {
+            background-color:  #aeba86;
+            text-decoration: none;
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: italic;
+            color: #466b47;
+			display: block;
+			text-align: right;
+            font-size: 18px;
+            margin-left: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+		.navbar a:hover {
+            background-color: #335441;
+            color: #e3b246;
+            align: left;
+        }
+		.navbar li{
+		    float: left;
+	    }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            height: 100px; 
+            width: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: #fefcfb;
+        }
+
+        .header img {
+            width: 100%;
+            height: auto;
+            filter: brightness(90%);
+        }
+
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header .overlay h1 {
+            font-size: 90px;
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal
+            margin: 0;
+            font-weight: bold;
+            line-spacing: 0px;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .header .overlay p {
+            font-size: 24px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        section {
+            padding: 50px 20px;
+            margin: 30px auto;
+            max-width: 800px;
+            background-color: #ffefc4;;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color:#466b47;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            background-color: #ffefc4a4;
+        }
+        
+        p {
+		font-family: "Outfit"
+		}
+		
+        section h2 {
+            font-size: 34px;
+            color: #466b47;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #6b705c
+        }
+		
+		.lusitana-bold {
+            font-family: "Lusitana", serif;
+            font-weight: 700;
+            font-style: normal;
+         }
+        .poppins-bold-italic {
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .josefin-sans {
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        section a {
+            color: #d77a61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #466b47;
+            color: #ffffff;
+            font-size: 14px;
+        }
+		
+        @media (max-width: 768px) {
+            .header .overlay h1 {
+                font-size: 36px;
+            }
+
+            .header .overlay p {
+                font-size: 18px;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+	    <ul>
+		    <li><a href="index.html">Gallery</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="programs.html">Programs</a></li>
+			<li><a href="contacts.html">Contact</a></li>
+			<li><a href="involved.html">Get Involved</a></li>
+		</ul>
+    <div class="logo-container">
+    <img src="LOGO.jpeg" alt="Logo" class="logo">
+</div>
+</nav>
+	
+	<div class="header">
+        <img src="HEADER (4).png"  alt="Outreach Project Banner">
+        <div class="overlay">
+            <h1>ABOUT</h1>
+            <p>A Day of Compassion and Kindness</p>
+        </div>
+    </div>
+	
+	
+	<section id="home">
+	    <h2>⌕ HOW DID WE START? ✨?</h2>
+		<p>Our journey began as a group of enthusiastic students with a shared passion for learning and community engagement. Recognizing the need for experience beyond the classroom, we decided to embark on our first project together. With limited resources but boundless creativity, we set out to organize an activity that would not only enhance our skills but also contribute positively to our community. Through countless brainstorming sessions and collaborative efforts, we transformed our ideas into reality, fostering teamwork and resilience along the way; choosing one impactful Outreach Proposal, entitled "A Day Full of Compassion and Kindness". We are able to conduct this on February 1, 2025 in Saint Maria De Mattias Center Inc.</p>
+	</section>
+
+    <section>
+        <h3> WHAT IS OUR MOTIVE? ✨</h3>
+        <p>Our brand aims to capture the attention of participants, ensuring they have a joyful experience during our program. We strive to make every outreach memorable and fulfilling for everyone involved.
+Our journey began with a clear plan: to engage participants through enjoyable games that promote cooperation and active participation. We brainstormed in the classroom about how to create a successful outreach program. Each group developed unique outreach plans, and we assigned specific roles to manage various aspects, including program coordination, food, finances, and entertainment.
+Our outreach initiatives are designed to be happy, memorable, and filled with kindness and love, creating a positive impact on the community.</p>
+	</section>
+	
+	<section>
+	    <h4> EMBODYING CORE VALUES ✨</h4>
+	     <p>COMPASSION - INTEGRITY - TEAMWORK - KINDNESS 🫂</p>
+        <p>Our core values are rooted in compassion, demonstrating care, concern, and love for others. We believe in respecting one another, fostering an environment of teamwork and collaboration where everyone’s opinions are valued and supported. Integrity and honesty are essential; we strive to create a safe space for everyone. Lastly, kindness is at the heart of our interactions, as we treat each other with generosity and thoughtfulness.
+</p>
+	</section>
+	
+	<footer>
+	   <p> @2024 Group One Paul</p>
+	</footer>
+</body>
